@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin:0;
 }
 h1{
     font-size: 50px;
@@ -15,6 +16,26 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
+    border-radius: 80px;
+    margin-top: 2px;
    height: 430px;
    margin-left: 250px;
+}
+.top{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(tomato ,red ,orange );
+    color: white ;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-left: 150px;
+    font-weight: 700px;
+    margin-top: 4px;
 }
