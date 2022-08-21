@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 .head-name{
     color: rgb(241, 186, 84);
 
@@ -31,11 +34,67 @@ section{
 }
 .button-link{
     text-decoration: none;
-    background-image: linear-gradient(tomato ,red ,orange );
+    background-image: linear-gradient( tomato ,red ,orange );
     color: white ;
     padding: 10px 20px;
     border-radius: 40px;
     margin-left: 150px;
     font-weight: 700px;
     margin-top: 4px;
+    margin-top: 30px;
 }
+
+    /*Second part of work*/
+    .dream-area{
+        background-image: url(./images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        
+    }
+.half{
+    margin-right: 50px;
+    width: 62%;
+    float: left;
+}
+.color{
+    color: chocolate;
+}
+.dream-line{
+    float: left;
+    width: 25%;
+    padding: 1%;
+    height: 250px;
+    margin-top: 200px;
+
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient( tomato ,red ,orange );
+    color: white ;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 700px;
+    margin-left: 54px;
+    margin-top: 30px;
+
+}
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+.senior{
+    width: 50%;
+}
+.junior{
+    width: 50%;
+}
+.single-area{
+    box-shadow: 10px 10px 40px orange;
+    border-radius: 5px;
+    height: 250px;
+}
+    
+
